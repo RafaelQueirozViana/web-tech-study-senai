@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>FORM WEB</title>
+</head>
+<body>
+    <div class="container">
+       <header>
+            <h1>Form web</h1>
+       </header>
+        <main class="content">
+            <div class="caixa-formulario">
+                <section class="header">
+                    <h1 class="oi">Cadastrar usuários</h1>
+                </section>
+                <form>
+                    <article class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input class="form-control" type="text" id="nome" name="nome" required>
+                    </article>
+                    <article class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input class="form-control" type="email" id="email" name="email" required>
+                    </article>
+                    <article class="form-group">
+                        <label for="telefone">Telefone:</label>
+                        <input class="form-control" type="tel" id="telefone" name="telefone" required>
+                    </article>
+                    <article class="form-button">
+                        <button id="button" class="cadastrar">Cadastrar</button>
+                    </article>
+                    <ul id="lista"></ul>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
