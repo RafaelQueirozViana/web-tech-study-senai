@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import "./nav.css";
+import "./Nav.css";
 
 export default function Nav() {
     return (
@@ -14,7 +14,7 @@ export default function Nav() {
                 </li>
 
                 <li>
-                    <Link to="/faq">FAQ</Link>
+                    <Link to="/faq">Perguntas Frequentes (FAQ)</Link>
                 </li>
             </ul>
         </nav>
