@@ -1,0 +1,27 @@
+.container-box {
+  max-width: 300px;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  margin-top: 40px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.title-box {
+  font-size: 20px;
+  margin: 14px 0 8px;
+  color: #222222;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #555555;
+}
