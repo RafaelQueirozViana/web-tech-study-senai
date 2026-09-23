@@ -16,6 +16,10 @@ export default function Nav() {
                 <li>
                     <Link to="/faq">Perguntas Frequentes (FAQ)</Link>
                 </li>
+
+                <li>
+                    <Link to={"/cadastroNews"}>Newsletter</Link>
+                </li>
             </ul>
         </nav>
     );

@@ -87,5 +87,12 @@
       "id": "5uX8DGUNhnw"
     }
   ],
+  "news": [
+    {
+      "nome": "raf",
+      "email": "dsad@da",
+      "id": "XJ41lgB8EHU"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

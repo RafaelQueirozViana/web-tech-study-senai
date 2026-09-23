@@ -6,6 +6,7 @@ import Sobre from "./pages/Sobre"
 import NotFound from "./pages/NotFound"
 import Usuarios from "./pages/Usuarios"
 import Cadastro from "./pages/cadastro"
+import CadastroNews from "./pages/CadastroNews"
 
 export default function Router() {
   return (
@@ -18,6 +19,8 @@ export default function Router() {
             <Route path="/usuarios" element={<Usuarios />} />
             <Route path="/cadastro" element={<Cadastro />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/cadastroNews" element={<CadastroNews />} />
+            
         </Routes>
     </BrowserRouter>
   )

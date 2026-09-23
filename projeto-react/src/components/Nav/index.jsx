@@ -20,6 +20,10 @@ export default function index() {
                 <li>
                     <Link to={"/cadastro"}>Inscrição</Link>
                 </li>
+
+                <li>
+                    <Link to={"/cadastroNews"}>Newsletter</Link>
+                </li>
             </ul>
         </nav>
     )
