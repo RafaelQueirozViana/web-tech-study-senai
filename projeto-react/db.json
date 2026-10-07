@@ -1,97 +1,49 @@
 {
   "usuarios": [
     {
-      "nome": "João Silva",
-      "telefone": "15478",
-      "email": "joaoSilva@gmail.com",
-      "id": "9o1nZIwc_a4"
-    },
-    {
-      "nome": "Caio",
-      "telefone": "15846",
-      "email": "Caio@gmail.com",
-      "id": "pNm9XyjuRvw"
-    },
-    {
-      "nome": "Ana Claudia",
-      "telefone": "12458",
-      "email": "AnaClaudia@gmail.com",
-      "id": "EzhLFNEn8RM"
-    },
-    {
-      "nome": "JOÃO PEDRO SOUSA AGUIAR",
-      "telefone": "1158594641",
-      "email": "joao.p.aguiar@edu.senai.br",
-      "id": "GUMVEnxxN6U"
-    },
-    {
-      "nome": "leonardo herrera sabbatini",
-      "telefone": "",
-      "email": "",
-      "id": "tRSS1dzfvhE"
-    },
-    {
-      "nome": "leonardo herrera sabbatini",
-      "telefone": "11925651234",
-      "email": "leoinho@gmail.com",
-      "id": "DwYnlvA39dQ"
-    },
-    {
-      "nome": "jon",
-      "telefone": "1159485236",
-      "email": "jon@gmail.com.br",
-      "id": "x-hTkWpTg3w"
+      "nome": "joao pedro",
+      "telefone": "11953671970",
+      "email": "joaopedro@gmail.com",
+      "id": "Xn2B2RsDluY"
     }
   ],
   "faq": [
     {
       "id": "1",
-      "pergunta": "Preciso ter telescópio para participar?",
-      "resposta": "Não. O clube empresta telescópios em todas as noites de observação, e você também pode trazer o seu se preferir."
+      "pergunta": "O que é JSON Server?",
+      "resposta": "JSON Server é uma ferramenta que permite ..."
     },
     {
       "id": "2",
-      "pergunta": "Quanto custa para entrar no clube?",
-      "resposta": "A participação é gratuita. Pedimos apenas uma contribuição voluntária para ajudar na manutenção dos equipamentos."
+      "pergunta": "Como instalar o JSON Server?",
+      "resposta": "Você pode instalar o JSON Server usando o npm com ..."
     },
     {
       "id": "3",
-      "pergunta": "Quando acontecem os encontros?",
-      "resposta": "As observações acontecem às sextas-feiras à noite, e as oficinas de astrofotografia no primeiro sábado de cada mês."
-    },
-    {
-      "id": "4",
-      "pergunta": "Preciso entender de astronomia?",
-      "resposta": "De jeito nenhum. Recebemos desde curiosos que nunca olharam por um telescópio até entusiastas com anos de experiência."
+      "pergunta": "Posso usar JSON Server em produção?",
+      "resposta": "JSON Server é ótimo para desenvolvimento ..."
     }
   ],
   "topicos": [
     {
-      "titulo": "Quem somos",
-      "paragrafo": "O Órbita Clube reúne estudantes, curiosos e entusiastas que compartilham o gosto por olhar para cima e entender o universo em que vivemos.",
+      "titulo": "O que é Lorem Ipsum?",
+      "paragrafo": "Lorem Ipsum é um texto fictício utilizado no design e na programação para representar conteúdos que ainda serão adicionados ao site. Ele permite que desenvolvedores e designers trabalhem no layout sem depender do texto final.",
       "id": "F69dX4LOU64"
     },
     {
-      "titulo": "Nossa missão",
-      "paragrafo": "Popularizar a astronomia com observações abertas, oficinas práticas e conversas acessíveis, para que qualquer pessoa possa descobrir as maravilhas do céu noturno.",
+      "titulo": "Para que serve?",
+      "paragrafo": "A ferramenta serve para gerar textos de preenchimento, testar diferentes estruturas de páginas e visualizar como títulos, parágrafos e outros elementos ficarão organizados.",
       "id": "K92ix3dcXzc"
     },
     {
-      "titulo": "O que fazemos",
-      "paragrafo": "Organizamos noites de observação de planetas e nebulosas, oficinas de astrofotografia, palestras com convidados e acompanhamos eventos como eclipses e chuvas de meteoros.",
+      "titulo": "Quem pode utilizar?",
+      "paragrafo": "O Lorem Ipsum pode ser utilizado por desenvolvedores web, designers, estudantes de programação, profissionais de marketing e criadores de sites e projetos digitais.",
       "id": "EWVgMi3R1U0"
     },
     {
-      "titulo": "Por que participar",
-      "paragrafo": "Ao entrar no clube você usa equipamentos que talvez não tivesse em casa, aprende com quem já tem experiência e faz parte de uma comunidade que divide a mesma paixão pelo espaço.",
+      "titulo": "Principais benefícios",
+      "paragrafo": "Entre os principais benefícios estão a praticidade, a organização, a agilidade no desenvolvimento e a possibilidade de visualizar o design antes que o conteúdo definitivo esteja pronto.",
       "id": "5uX8DGUNhnw"
-    }
-  ],
-  "news": [
-    {
-      "nome": "raf",
-      "email": "dsad@da",
-      "id": "XJ41lgB8EHU"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

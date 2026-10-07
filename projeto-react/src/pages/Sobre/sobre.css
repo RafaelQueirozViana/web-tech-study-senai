@@ -1,31 +1,53 @@
-.container-sobre {
+.container-sobre{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 35vh;
+}
+
+.container-sobre p{
+    margin-top: 10px;
+}
+
+.lorem{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 20px;
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    min-height: 35vh;
-    text-align: center;
 }
 
-.topico {
-    width: 100%;
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 6px;
+/* From Uiverse.io by cssbuttons-io */ 
+.delete {
+  background-color: #000;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px; 
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
 }
 
-.topico h1 {
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: #222222;
+.delete a{
+    text-decoration: none;
+    color: #fff;
 }
 
-.topico p {
-    line-height: 1.6;
-    color: #555555;
-}
+
+
+

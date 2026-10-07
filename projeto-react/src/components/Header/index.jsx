@@ -4,15 +4,15 @@ import menu from "../../assets/img/menu.png"
 
 export default function index() {
   return (
-    <header className="header">
-      <section className="title-container">
-        <img className="img-logo" src={logoTipo} alt="Logotipo do Órbita Clube" />
-        <div className="title-centro">
-          <h1 className="title">Órbita Clube</h1>
-          <h2 className="subtitle">Explorando o céu, uma noite de cada vez</h2>
-        </div>
-        <img className="img-menu" src={menu} alt="Menu" />
-      </section>
+    <header className='header'>
+        <section className='title-container'>
+            <img className="img-logo" src={logoTipo}/>
+            <div className="title-centro">
+              <h1 className='title'>Titulo principal</h1>
+              <h2 className='subtitle'>Lorem ipsum</h2>
+            </div>
+            <img className="img-menu" src={menu}/>
+        </section>
     </header>
   )
 }

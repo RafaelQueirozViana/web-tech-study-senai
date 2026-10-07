@@ -19,14 +19,17 @@ export default function index() {
         }));
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e) =>{
         e.preventDefault();
-
-        if (formData.nome == "" || formData.telefone == "" || formData.email == "") {
-            toast.error("Preencha todos os campos para se inscrever!")
+        
+        if(formData.nome == "" || formData.telefone == "" || formData.email == ""){
+        
+            toast.error("Todos os campos são obrigatórios!")
             return false;
         }
 
+
+        
         fetch("http://localhost:3000/usuarios", {
             method: "POST",
             headers: {
@@ -34,59 +37,56 @@ export default function index() {
             },
             body: JSON.stringify(formData)
         })
-            .then((response) => response.json())
-            .then((data) => {
-                toast.success("Inscrição realizada com sucesso! Bem-vindo ao clube!")
+        .then((response) => response.json())
+        .then((data) => {
+            toast.success("Usuários cadastrado com sucesso!")
 
-                setFormData({
-                    nome: "",
-                    telefone: "",
-                    email: ""
-                })
+            setFormData({
+                nome: "",
+                telefone: "",
+                email: ""
             })
+        })
     }
 
-    return (
-        <main className="container">
-            <h1 className="titulo-cadastro">Inscrição de novos membros</h1>
-            <form className="form-cadastro" onSubmit={handleSubmit}>
-                <article className="form-control">
-                    <label htmlFor="nome">Nome completo:</label>
-                    <input
-                        id="nome"
-                        type="text"
-                        name="nome"
-                        value={formData.nome}
-                        onChange={handleChange}
-                    />
-                </article>
+  return (
+    <main className='container'>
+        <h1>Cadastro de usuários</h1>
+        <form onSubmit={handleSubmit}>
+            <article className="form-control">
+                <label htmlFor="Nome:">Nome:</label>
+                <input
+                 type="text" 
+                 name="nome" 
+                 value={formData.nome}
+                 onChange={handleChange}
+                />
+            </article>
 
-                <article className="form-control">
-                    <label htmlFor="telefone">Telefone:</label>
-                    <input
-                        id="telefone"
-                        type="text"
-                        name="telefone"
-                        value={formData.telefone}
-                        onChange={handleChange}
-                    />
-                </article>
+            <article className="form-control">
+                <label htmlFor="Telefone:">Telefone:</label>
+                <input
+                 type="text" 
+                 name="telefone" 
+                 value={formData.telefone}
+                 onChange={handleChange}
+                />
+            </article>
 
-                <article className="form-control">
-                    <label htmlFor="email">E-mail:</label>
-                    <input
-                        id="email"
-                        type="email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                    />
-                </article>
+            <article className="form-control">
+                <label htmlFor="Email:">Email:</label>
+                <input 
+                 type="email" 
+                 name="email" 
+                 value={formData.email}
+                 onChange={handleChange}
+                />
+            </article>
 
-                <button type="submit">Inscrever-se</button>
+            <button type="submit">Cadastrar</button>
 
-                <ToastContainer theme="dark" />
-            </form>
-        </main>
-    )
+            <ToastContainer />
+        </form>
+    </main>
+  )
 }

@@ -2,29 +2,35 @@ import { Link } from "react-router-dom";
 import "./nav.css"
 
 export default function index() {
-    return (
+  return (
         <nav>
             <ul className="menu">
-                <li>
-                    <Link to={"/"}>Início</Link>
-                </li>
-                <li>
-                    <Link to={"/sobre"}>Sobre</Link>
-                </li>
-                <li>
-                    <Link to={"/FAQ"}>Perguntas</Link>
-                </li>
-                <li>
-                    <Link to={"/usuarios"}>Membros</Link>
-                </li>
-                <li>
-                    <Link to={"/cadastro"}>Inscrição</Link>
-                </li>
-
-                <li>
-                    <Link to={"/cadastroNews"}>Newsletter</Link>
-                </li>
-            </ul>
+            <li>
+                <Link to={"/"}>
+                    Home
+                </Link>
+            </li>
+            <li>
+                <Link to={"/sobre"}>
+                    About
+                </Link>
+            </li>
+            <li>
+                <Link to={"/FAQ"}>
+                    FAQ
+                </Link>
+            </li>
+            <li>
+                <Link to={"/usuarios"}>
+                    Usuarios
+                </Link>
+            </li>
+            <li>
+                <Link to={"/cadastro"}>
+                    Cadastro
+                </Link>
+            </li>
+        </ul>
         </nav>
-    )
+  )
 }
