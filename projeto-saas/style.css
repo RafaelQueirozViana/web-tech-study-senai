@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+.estilo-borda, .container .servicos .card {
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.container header {
+  background: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container nav {
+  display: flex;
+}
+.container nav a {
+  color: #333;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.container nav:hover {
+  color: #5936cf;
+  text-decoration: underline;
+}
+.container .banner {
+  background-color: #e5e0fa;
+  padding: 5rem;
+  border-radius: 10px;
+  text-align: center;
+}
+.container .banner h1 {
+  font-size: 2rem;
+  color: #5936cf;
+}
+.container .banner p {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+.container .banner a {
+  background-color: #5936cf;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.container .servicos {
+  display: flex;
+  gap: 20px;
+  padding: 40px 20px;
+}
+.container .servicos .card {
+  background: #f2f2f2;
+  padding: 20px;
+  flex: 1;
+}
+.container .servicos .card h3 {
+  color: #5936cf;
+}
+.container .servicos .card:hover {
+  background: #e5e0fa;
+  cursor: pointer;
+}
+.container footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #5936cf;
+}
+.container footer p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+@media (max-width: 600px) {
+  .container header {
+    flex-direction: column;
+  }
+  .container header nav {
+    margin-top: 10px;
+  }
+  .container .servicos {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
